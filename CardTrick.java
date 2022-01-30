@@ -56,6 +56,9 @@ public class CardTrick {
           
                         }
     // step 3 do change in remote repository. hard coded card details card number =2,hearts to find in array
-    }
+   Card luckyCard= new Card();
+    luckyCard.setNumber('3').setSuits("clubs");
+    System.out.println(luckyCard.getNumber().getSuits());
+}
     
 
